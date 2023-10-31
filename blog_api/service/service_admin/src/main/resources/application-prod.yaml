@@ -1,0 +1,15 @@
+spring:
+    # redis
+    redis:
+        host: 119.91.208.93
+        password: password
+        port: 6379
+        database: 0
+        timeout: 10000ms
+
+    # mysql数据库连接
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://119.91.208.93:3306/siyu?serverTimezone=GMT%2B8
+        username: siyu
+        password: password
